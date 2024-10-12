@@ -1,0 +1,387 @@
+.App {
+  text-align: center;
+
+}
+
+.App-header{
+  background-color: #f1f3f6;
+height: 50px;
+width: auto;
+}
+
+
+.brand{
+  position: relative;
+  display: flex;
+  right: 20%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+
+}
+.new-user{
+  position: relative;
+  display: flex;
+  top: 5px;
+  left: 1500%;
+  height: 40px;
+  width: 70px;
+  color: white;
+  font: bold;
+  border: none;
+  border-radius: 10px;
+  align-items: center ;
+  justify-content: center;
+  background-color: rgb(1, 94, 255);
+
+}
+
+.image{
+  display: flex;
+  position: relative;
+  margin-left: 0px;
+  height: 100%; 
+  width: 100%;
+  background-color: rgb(224, 151, 56);
+}
+
+.bg-image{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 490%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.overlay-text{
+display: flex;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-wrap: 50px;
+  margin-top: 10px;
+  padding: 0px 10px;
+
+}
+
+.input-field{
+  display: flex;
+  width: 390px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 150px;
+  bottom: 20px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.btn-signup{
+
+position: relative;
+  background-color: rgb(1, 94, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+margin-left: 500px;
+bottom: 50px;
+right: 50px;
+width: 90px;
+cursor: pointer;
+}
+
+.note-container{
+  position: absolute;
+  top: 56%;
+  height: 300px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10%;
+  margin-top: 5%;
+  margin-left: 10%;
+ font-size: 29px;
+ 
+
+}
+
+li {
+  margin-right: 20px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+
+.p0{
+  display: flex;
+  margin-left: 35px;
+  font-weight: bold;
+}
+
+.p1{
+  width: 330px;
+  display: flex;
+  font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.container-mobile {
+  margin-top: 290px;
+  padding: 20px;
+  background-color: #f6f1f1;
+  height: 350px;
+}
+
+.image1{
+  display: flex;
+  position: relative;
+  left: 50.2%;
+  bottom: 18px;
+  width: 51%;
+  height: 390px;
+}
+
+.codeImage{
+  padding: 20px;
+  background-color: #f6f1f1;
+  height: 350px;
+ 
+}
+
+.image2{
+  display: flex;
+  position: relative;
+  bottom: 20px;
+  width: 51.3%;
+  height: 390px;
+  right: 20px;
+}
+
+.lapImage{
+  padding: 20px;
+  background-color: #f6f1f1;
+  height: 350px;
+}
+
+.image3{
+  display: flex;
+  position: relative;
+  left: 50%;
+  bottom: 18px;
+  width: 51%;
+  height: 389px;
+}
+
+.heading1{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -320px;
+  left: 20%;
+  transform: translateX(-50%);
+  font-size: 34px;
+  font-weight: bold;
+
+}
+
+.note1 {
+  position: relative;
+  display: block; /* Flex is not necessary if you're not aligning child elements */
+  margin: 0 auto;
+  margin-left: 70px; /* Moves the element to the left */
+  font-size: 20px;
+  color: #666;
+  word-break: break-word; /* Properly breaks long words */
+  width: 37%; /* You can adjust this as needed */
+  word-spacing: 1px; /* Space between words */
+  line-height: 1.6; /* Optional: Adds more line spacing for readability */
+}
+
+.heading2{
+  position: relative;
+  display: block;
+  margin-top: -320px;
+  margin-left: 65%;
+  font-size: 34px;
+}
+
+.note2{
+  position: relative;
+  display: block; /* Flex is not necessary if you're not aligning child elements */
+  margin: 0 auto;
+  margin-left: 970px; /* Moves the element to the left */
+  font-size: 20px;
+  color: #666;
+  word-break: break-word; /* Properly breaks long words */
+  width: 37%; /* You can adjust this as needed */
+  word-spacing: 1px; /* Space between words */
+  line-height: 1.6; /* Optional: Adds more line spacing for readability */
+}
+
+.heading3{
+  position: relative;
+  display: block;
+  margin-top: -320px;
+  margin-left: 10%;
+  font-size: 34px;
+  
+}
+
+.note3{
+  position: relative;
+  display: block; /* Flex is not necessary if you're not aligning child elements */
+  margin: 0 auto;
+  margin-left: 5%; /* Moves the element to the left */
+  font-size: 20px;
+  color: #666;
+  word-break: break-word; /* Properly breaks long words */
+  width: 37%; /* You can adjust this as needed */
+  word-spacing: 1px; /* Space between words */
+  line-height: 1.6; /* Optional: Adds more line spacing for readability */
+}
+
+.person-details{
+  padding: 20px;
+  background-color: #d3cbcb72;
+  height: 500px;
+}
+
+.Review{
+  position: relative;
+  justify-content: center;
+  margin-top: 5%;
+margin-left: 35%;
+}
+
+.person-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Adjust spacing between items */
+  align-items: center; /* Align items vertically */
+  overflow-x: auto; /* Allow scrolling if the content exceeds the width */
+}
+
+.person-block {
+  margin: 5px;
+  text-align: center; /* Center the text below each image */
+  min-width: 0px; /* Ensure each block takes up a minimum width */
+}
+
+.person-image {
+  margin-top: 50px;
+  width: 150px; /* Adjust the size of the images */
+  height: 150px;
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fits within the container */
+}
+
+.note-person{
+  position: relative;
+  display: block;
+  width: 350px;
+
+}
+
+.image-container2 {
+  position: relative;
+  display: flex;
+}
+
+.bg-image1{
+  height: 350px;
+  width: 100%;
+}
+
+
+.overlay-text1{
+  position: absolute;
+  margin-left: -70%;
+  margin-top: 5%;
+  color: white;
+}
+
+.overlay-button{
+  margin-top: 10%;
+  position: absolute;
+  margin-left: -39%;
+  height: 60px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(1, 94, 255);
+ 
+}
+
+.input-field1{
+  position: absolute;
+  margin-left: -70%;
+  border-radius: 5px;
+  margin-top: 10%;
+  height: 60px;
+  width: 490px;
+  border: none;
+}
+
+.last-container{
+  position: relative;
+  display: flex;
+  height: 150px;
+  background-color: rgba(220, 215, 208, 0.702);
+}
+
+
+
+.navlink{
+  position: relative;
+  display: flex;
+margin-top: 30px;
+margin-left: 100px;
+}
+
+.link {
+ 
+  margin-right: 20px; /* Adds a 20px space between the links */
+  text-decoration: none; /* Removes the underline on links */
+  color: #000; /* Set the desired color */
+}
+
+.link:last-child {
+  margin-right: 0; /* Removes the margin for the last link */
+}
+
+.label{
+  position: relative;
+  margin-top: 5%;
+margin-left: -350px;
+color: grey;
+}
